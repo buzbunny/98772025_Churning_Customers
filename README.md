@@ -3,7 +3,7 @@
 This repository contains code for training a churn prediction model using customer data and deploying it as a Streamlit web app. The model predicts whether a customer is likely to churn based on various features.
 
 ## Model Training
-The model training code is available in the `model_training.ipynb` notebook. It includes steps for:
+The model training code is available in the `LAB_assignment-3.ipynb` notebook. It includes steps for:
 
 - Data preprocessing: handling missing values, encoding categorical features, scaling numerical features.
 - Feature importance analysis and exploratory data analysis (EDA).
