@@ -11,16 +11,16 @@ The model training code is available in the `LAB_assignment-3.ipynb` notebook. I
 - Evaluating the model's performance using accuracy and AUC score.
 
 ## Model Deployment
-The deployment code is available in the `Churn_web_app.py` file. It utilizes Streamlit to create a web app that takes user inputs and makes predictions using the trained model.
+The deployment code is available in the `Churn_web_app.py` file. It utilizes Streamlit to create a web app that takes user inputs and makes predictions using the trained model
 
 ### Steps for Running the Web App
 1. Ensure all required libraries are installed
-2. Run the app using `streamlit run app_deployment.py`.
+2. Run the app using `streamlit run Churn_web_app.py`.
 3. Input customer features through the sidebar and click the "Predict" button to see the churn prediction.
 
 ## Files in the Repository
-- `model_training.ipynb`: Jupyter Notebook containing the model training code.
-- `app_deployment.py`: Python file for deploying the trained model as a Streamlit web app.
+- `LAB_assignment-3.ipynb`: Jupyter Notebook containing the model training code.
+- `Churn_web_app.py`: Python file for deploying the trained model as a Streamlit web app.
 - `best_model1.h5`: Saved trained neural network model.
 - `scaler.pkl`: Pickled StandardScaler used for scaling input features.
 - `README.md`: This documentation file.
